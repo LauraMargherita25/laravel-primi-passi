@@ -8,5 +8,6 @@
 </head>
 <body>
     <h1>Primi passi con Laravel</h1>
+    <p>Hello World!</p>
 </body>
 </html>
