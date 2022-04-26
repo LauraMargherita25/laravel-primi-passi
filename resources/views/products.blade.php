@@ -7,14 +7,6 @@
     <title>laravel-primi-passi</title>
 </head>
 <body>
-    <h1>Primi passi con Laravel</h1>
-    <p>Hello World!</p>
-    <nav>
-        <ul>
-            @foreach ($nav as $navItem)
-                <li><a href="{{ route($navItem['link']) }}">{{ $navItem['text'] }}</a></li>
-            @endforeach
-        </ul>
-    </nav>
+    <h1>Our Products</h1>
 </body>
 </html>
