@@ -9,5 +9,12 @@
 <body>
     <h1>Primi passi con Laravel</h1>
     <p>Hello World!</p>
+    <nav>
+        <ul>
+            @foreach ($nav as $navlink)
+                <li>{{ $navlink }}</li>
+            @endforeach
+        </ul>
+    </nav>
 </body>
 </html>
